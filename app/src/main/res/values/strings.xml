@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ConnectionSportTask</string>
+    <string name="start">BOSHLASH</string>
+    <string name="level1">DARAJA 1</string>
+    <string name="level2">DARAJA 2</string>
+    <string name="title_text">YO\'LLARNI KESISHTIRMASDAN OBYEKTLARNI ULANG</string>
+    <string name="great">AJOYIB!</string>
+    <string name="next_level">KEYINGI DARAJA</string>
+    <string name="main_menu">ASOSIY MENU</string>
+</resources>

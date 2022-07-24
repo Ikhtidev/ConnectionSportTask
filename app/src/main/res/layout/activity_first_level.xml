@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_bg_color"
+    android:orientation="vertical"
+    tools:context=".ui.FirstLevelActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <ImageView
+            android:id="@+id/btn_level"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_bg"
+            android:padding="5dp"
+            android:src="@drawable/ic_back"
+            android:textAllCaps="false"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/level1"
+            android:textColor="#ff0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/title_text"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/touchview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="5">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"
+                android:src="@drawable/img0" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:src="@drawable/img0"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:src="@drawable/img0"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:src="@drawable/img0"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:src="@drawable/img0"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:src="@drawable/img0"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:src="@drawable/img0"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/img0"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/img0"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/img0"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:src="@drawable/img0"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/doted_bg"
+                android:clickable="false"
+                android:src="@drawable/img0"
+                android:hardwareAccelerated="false"
+                android:layerType="software"
+                android:padding="5dp"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
